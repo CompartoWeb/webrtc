@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+	<head>
+		<title>StarTalk</title>
+		<link rel="stylesheet" href="css/application.css">
+	</head>
+	<body>
+
+		<div class="user first-user">
+			<video 	autoplay hidden
+							width="640" height="480"></video>
+			<canvas data-back hidden
+							width="80" height="60"></canvas>
+			<canvas data-main
+							width="640" height="480"></canvas>
+			<img 		class="chewbacca"
+							src="img/chewbacca.png">
+		</div>
+
+		<div class="user second-user">
+			<video 	autoplay hidden
+							width="640" height="480"></video>
+			<canvas data-back hidden
+							width="80" height="60"></canvas>
+			<canvas data-main
+							width="640" height="480"></canvas>
+			<img 		class="darthvader"
+							src="img/darth_vader.png">
+		</div>
+
+		<!-- face detection library -->
+		<script type="text/javascript" 
+						src="vendor/face-detection-master/ccv.js"></script>
+		<script type="text/javascript" 
+						src="vendor/face-detection-master/face.js"></script>
+
+		<!-- main app -->
+		<script src="js/application.js"></script>
+	</body>
+</html>

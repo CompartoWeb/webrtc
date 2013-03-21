@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Fase2</title>
+		<style>
+			#gray:target ~ video{ -webkit-filter: grayscale(1); }
+			#blur:target ~ video{ -webkit-filter: blur(5px); }
+		</style>
+	</head>
+	<body>
+		<a href="#">Nessuno</a>
+		<a href="#gray" id="gray">Bianco e Nero</a>
+		<a href="#blur" id="blur">Blur</a><br/>
+		<video autoplay width="640" height="480"></video>
+
+		<!-- main app -->
+		<script src="js/step1.js"></script>
+	</body>
+</html>

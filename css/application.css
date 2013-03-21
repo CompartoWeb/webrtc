@@ -1,0 +1,20 @@
+.user{
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+}
+
+.user img{
+	position: absolute;
+	display: block;
+	opacity: 0;
+	-webkit-transition: width 0.3s, height 0.3s, top 0.3s, left 0.3s;
+}
+
+.user img.darthvader{
+	-webkit-transform: scale(2);
+}
+
+.user img.chewbacca{
+	-webkit-transform: scale(1.6);
+}
